@@ -31,9 +31,9 @@ html {
 .jumbotron {
   margin-top: 20px;
   font-family: 'dosis';
-  font-size: 20px;
+  font-size: 1.5em;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  background-image: url("http://3.bp.blogspot.com/-MJAilQbVH3g/VWhTipPdM5I/AAAAAAAAE8Y/50_0rU5p3Sc/s1600/background2.jpg");
+  background-image: url("https://images.unsplash.com/photo-1525034687081-c702010cb70d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ff7a4507eafd365d7f5d6badcd6d7163&auto=format&fit=crop&w=1650&q=80");
   /* Full height */
   height: 100%;
 
@@ -41,13 +41,13 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
+  font-weight: 500;
 
 }
 
 .rs-name {
   font-family: 'Fredericka the Great', cursive;
-  font-size: 4em;
+  font-size: 2em;
 }
 
 #bookbtn {
@@ -55,8 +55,10 @@ html {
   border-radius: 0px;
   padding-top: 15px;
   padding-bottom: 15px;
+}
 
-
+#bookbtn:hover {
+  color:lightgray;
 }
 
 #circle-img {
@@ -73,6 +75,10 @@ html {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   background-color: #34592b;
   color: white;
+}
+
+#schedbtn:hover {
+  color:lightgray;
 }
 
 #vegan {
@@ -99,6 +105,7 @@ hr {
 }
 
 .footer-copyright {
+  font-size:14px;
   background-color: black;
 }
 
@@ -106,12 +113,13 @@ i {
   font-size: 3em;
 }
 
+
 a {
   color: lightgray;
 }
 
 a:hover {
-  color: darkgray;
+  color: lightgray;
 }
 
 .contact {
@@ -125,6 +133,10 @@ a:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+#contactbtn:hover {
+  color:lightgray;
+}
+
 #menuheader {
   font-family: 'Fredericka the Great', cursive;
   font-size: 3em;
@@ -132,7 +144,6 @@ a:hover {
 
 ul {
   list-style-type: none;
-  line-height: 5px;
 }
 
 h2 {
@@ -147,4 +158,19 @@ h2 {
   margin-top: 20px;
   margin-right: 5%;
   margin-left: 5%;
+  line-height: 1em;
+}
+
+html {
+  font-size: 16px;
+}
+@media screen and (min-width: 320px) {
+  html {
+    font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+  }
+}
+@media screen and (min-width: 1000px) {
+  html {
+    font-size: 22px;
+  }
 }
