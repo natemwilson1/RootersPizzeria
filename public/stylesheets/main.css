@@ -1,0 +1,150 @@
+.navbar {
+  border: none;
+  border-radius: 0;
+  background-color: rgba(0, 0, 0, 0.85);
+  color: white;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+body,
+html {
+  height: 100%;
+  background: rgb(174, 175, 177);
+  background: linear-gradient(90deg, rgba(174, 175, 177, 1) 0%, rgba(24, 24, 24, 1) 100%);
+}
+
+.bg {
+  /* The image used */
+  background-image: url("/images/pizzapies.jpg");
+
+  /* Full height */
+  height: 40vh;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.jumbotron {
+  margin-top: 20px;
+  font-family: 'dosis';
+  font-size: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-image: url("http://3.bp.blogspot.com/-MJAilQbVH3g/VWhTipPdM5I/AAAAAAAAE8Y/50_0rU5p3Sc/s1600/background2.jpg");
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+
+.rs-name {
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 4em;
+}
+
+#bookbtn {
+  background-color: #34592b;
+  border-radius: 0px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+
+}
+
+#circle-img {
+  width: 350px;
+  height: auto;
+  border: brown solid 1px;
+}
+
+#logoname {
+  font-family: 'Fredericka the Great', cursive;
+}
+
+#schedbtn {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #34592b;
+  color: white;
+}
+
+#vegan {
+  color: #34592b;
+}
+
+.lead {
+  font-size: 1.5em;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.footer {
+  margin-top: 40px;
+  width: 100%;
+  min-height: 100px;
+  background-color: #222;
+  color: lightgray;
+}
+
+.footer-copyright {
+  background-color: black;
+}
+
+i {
+  font-size: 3em;
+}
+
+a {
+  color: lightgray;
+}
+
+a:hover {
+  color: darkgray;
+}
+
+.contact {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+#contactbtn {
+  background-color: #34592b;
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#menuheader {
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 3em;
+}
+
+ul {
+  list-style-type: none;
+  line-height: 5px;
+}
+
+h2 {
+  font-family: 'Fredericka the Great', cursive;
+}
+
+.price {
+  float: right;
+}
+
+.menu {
+  margin-top: 20px;
+  margin-right: 5%;
+  margin-left: 5%;
+}
