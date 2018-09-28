@@ -9,25 +9,24 @@
           <hr>
           <form class="contact" method="POST" action="/reservations">
             <div class="form-group">
-              <input class="form-control" type="text" name="name" placeholder="name" />
+              <input class="form-control" type="text" name="name" placeholder="name" required />
             </div>
             <div class="form-group">
-              <input class="form-control" type="text" name="email" placeholder="email" />
+              <input class="form-control" type="email" name="email" placeholder="email" required />
             </div>
             <div class="form-group">
-              <input class="form-control" type="date" name="date" placeholder="date" />
+              <input class="form-control" type="date" name="date" placeholder="date" required />
             </div>
             <div class="form-group">
-              <textarea class="form-control" name="message" placeholder="Briefly Describe your event and needs and we will be in touch as soon as possible."></textarea>
+              <textarea class="form-control" name="message" placeholder="Briefly Describe your event and needs and we will be in touch as soon as possible." required></textarea>
             </div>
             <div class="form-group">
               <input id="contactbtn" type="submit" class="btn  btn-lg  btn-block" value="Submit" />
             </div>
-
           </form>
         </div>
       </div>
     </div>
   </div>
 
-  <% include ./partials/footer %>
+<% include ./partials/footer %>

@@ -8,6 +8,7 @@ html {
   background: rgb(174, 175, 177);
   background: linear-gradient(90deg, rgba(174, 175, 177, 1) 0%, rgba(50, 50, 50, 1) 100%);
   font-family: "dosis", sans-serif;
+  margin: 0;
 }
 
 
@@ -145,8 +146,8 @@ h2 {
 */
 
 .alert {
-  margin-top:20px;
-  margin-bottom:0px;
+  margin-top: 20px;
+  margin-bottom: 0px;
 }
 
 
@@ -179,3 +180,10 @@ i {
   background-color: black;
 }
 
+.iconfooter {
+  border-right: solid gray 1px;
+}
+
+#fb {
+  border-left: solid gray 1px;
+}
