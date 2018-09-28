@@ -7,21 +7,21 @@
           <h1 class="display-4 rs-name">Request <span id="vegan">Rooter's</span> at your event.</h1>
           <p class="lead">Submit a request and we will be in touch ASAP!</p>
           <hr>
-          <form class="contact">
+          <form class="contact" method="POST" action="/reservations">
             <div class="form-group">
-              <input class="form-control" type="text" name="" placeholder="name" />
+              <input class="form-control" type="text" name="name" placeholder="name" />
             </div>
             <div class="form-group">
-              <input class="form-control" type="text" name="" placeholder="email" />
+              <input class="form-control" type="text" name="email" placeholder="email" />
             </div>
             <div class="form-group">
-              <input class="form-control" type="date" name="" placeholder="date" />
+              <input class="form-control" type="date" name="date" placeholder="date" />
             </div>
             <div class="form-group">
-              <textarea class="form-control" placeholder="Briefly Describe your event and needs and we will be in touch as soon as possible."></textarea>
+              <textarea class="form-control" name="message" placeholder="Briefly Describe your event and needs and we will be in touch as soon as possible."></textarea>
             </div>
             <div class="form-group">
-              <input id="contactbtn" class=" form-control btn  btn-lg  btn-block" value="Submit" />
+              <input id="contactbtn" type="submit" class="btn  btn-lg  btn-block" value="Submit" />
             </div>
 
           </form>
