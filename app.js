@@ -69,7 +69,7 @@ app.post("/reservations", [
   if (!errors.isEmpty()){
     var body = req.body;
     req.flash("error","Please enter a valid email!");
-    res.redirect("/reservations",{body: body});
+    res.redirect("/reservations");
 
   } else {
     req.flash("success", "Message received we'll be in touch!");
