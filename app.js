@@ -1,12 +1,12 @@
 var express = require("express"),
   app = express(),
   bodyParser = require("body-parser"),
-  mongoose = require("mongoose"),
+  // mongoose = require("mongoose"),
   session = require('express-session'),
   cookieParser = require('cookie-parser'),
   flash = require('connect-flash');
 
-mongoose.connect("mongodb://localhost/rooters");
+// mongoose.connect("mongodb://localhost/rooters");
 app.set("view engine", "ejs");
 app.use(express.static('public'));
 app.use(bodyParser.urlencoded({ extended: true }));
